@@ -1,0 +1,112 @@
+/* Made by Nathnolt */
+
+html, body {
+	background: black;
+}
+
+.custom.controller {
+	background: url(back.png);
+	image-rendering: pixelated;
+	height: 16px;
+	width: 32px;
+}
+.custom.controller .arrows span,
+.custom.controller .face,
+.custom.controller .button {
+	position: absolute;
+	opacity: 0;
+}
+.custom.controller .arrows span.pressed,
+.custom.controller .face.pressed,
+.custom.controller .button.pressed.pressed {
+	opacity: 1;
+}
+
+
+}
+
+.custom .arrows span {
+	background: url(arr.png);
+	width: 4px;
+	height: 3px;
+}
+
+.custom .arrows .back {
+	left: 11px;
+	top: 13px;
+}
+.custom .arrows .start {
+	left: 16px;
+	top: 13px;
+}
+.custom .arrows .clear {
+	display: none;
+}
+
+
+.custom .stick {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: #41b9ff;
+    zoom: .2;
+    z-index: 2;
+}
+.custom .stick.pressed {
+	background: white;
+}
+.custom .stick.left {
+    left: 25px;
+    top: 45px;
+}
+.stick.right {
+    left: 125px;
+    top: 45px;
+}
+
+.custom .face {
+	width: 4px;
+	height: 4px;
+}
+
+.custom .face.up {
+	background: url(arrowup.png);
+	left: 4px;
+	top: 4px;
+}
+.custom .face.down {
+	background: url(arrowdown.png);
+	left: 4px;
+	top: 12px;
+}
+.custom .face.left {
+	background: url(arrowleft.png);
+	left: 0px;
+	top: 8px;
+}
+.custom .face.right {
+	background: url(arrowright.png);
+	left: 8px;
+	top: 8px;
+}
+.custom .button {
+	background: url(button.png);
+	width: 4px;
+	height: 4px;
+}
+.custom .button.a {
+	left: 24px;
+	top: 12px;
+}
+.custom .button.b {
+	left: 28px;
+	top: 8px;
+}
+.custom .button.x {
+	left: 20px;
+	top: 8px;
+}
+.custom .button.y {
+	left: 24px;
+	top: 4px;
+}
